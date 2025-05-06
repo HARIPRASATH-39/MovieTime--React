@@ -1,0 +1,20 @@
+.container {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom {
+  height: 450px;
+  width: 200px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom:hover {
+  transform: scale(1.05);
+}
+.nomovies {
+  color: red;
+  margin-top: 50px;
+}

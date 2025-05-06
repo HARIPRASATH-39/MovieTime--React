@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Harry Potter",
+    "genre": "Fantasy",
+    "rating": 8.1,
+    "year": 2001,
+    "duration": "152 minutes"
+  },
+  {
+    "id": 2,
+    "name": "Stranger Things",
+    "genre": "Sci-Fi",
+    "rating": 8.7,
+    "year": 2016,
+    "duration": "50 minutes per episode"
+  },
+  {
+    "id": 3,
+    "name": "Dark",
+    "genre": "Mystery",
+    "rating": 8.8,
+    "year": 2017,
+    "duration": "60 minutes per episode"
+  },
+  {
+    "id": 4,
+    "name": "Lord of the Rings",
+    "genre": "Fantasy",
+    "rating": 8.9,
+    "year": 2001,
+    "duration": "178 minutes"
+  },
+  {
+    "id": 5,
+    "name": "The Dark Knight",
+    "genre": "Action",
+    "rating": 9.0,
+    "year": 2008,
+    "duration": "152 minutes"
+  },
+  {
+    "id": 6,
+    "name": "Game of Thrones",
+    "genre": "Drama",
+    "rating": 9.2,
+    "year": 2011,
+    "duration": "60 minutes per episode"
+  },
+  {
+    "id": 7,
+    "name": "The Witcher",
+    "genre": "Fantasy",
+    "rating": 8.1,
+    "year": 2019,
+    "duration": "60 minutes per episode"
+  },
+  {
+    "id": 8,
+    "name": "Interstellar",
+    "genre": "Sci-Fi",
+    "rating": 8.6,
+    "year": 2014,
+    "duration": "169 minutes"
+  },
+  {
+    "id": 9,
+    "name": "Breaking Bad",
+    "genre": "Crime",
+    "rating": 9.5,
+    "year": 2008,
+    "duration": "47 minutes per episode"
+  },
+  {
+    "id": 10,
+    "name": "Sherlock",
+    "genre": "Mystery",
+    "rating": 8.9,
+    "year": 2010,
+    "duration": "90 minutes per episode"
+  },
+  {
+    "id": 11,
+    "name": "Avengers Endgame",
+    "genre": "Action",
+    "rating": 8.4,
+    "year": 2019,
+    "duration": "181 minutes"
+  },
+  {
+    "id": 12,
+    "name": "The Matrix",
+    "genre": "Sci-Fi",
+    "rating": 8.7,
+    "year": 1999,
+    "duration": "136 minutes"
+  },
+  {
+    "id": 13,
+    "name": "Avatar",
+    "genre": "Sci-Fi",
+    "rating": 7.9,
+    "year": 2009,
+    "duration": "162 minutes"
+  },
+  {
+    "id": 14,
+    "name": "Pirates of the Caribbean",
+    "genre": "Adventure",
+    "rating": 8.0,
+    "year": 2003,
+    "duration": "143 minutes"
+  },
+  {
+    "id": 15,
+    "name": "The Mandalorian",
+    "genre": "Sci-Fi",
+    "rating": 8.7,
+    "year": 2019,
+    "duration": "40 minutes per episode"
+  },
+  {
+    "id": 16,
+    "name": "Chernobyl",
+    "genre": "Drama",
+    "rating": 9.4,
+    "year": 2019,
+    "duration": "60 minutes per episode"
+  },
+  {
+    "id": 17,
+    "name": "Black Mirror",
+    "genre": "Sci-Fi",
+    "rating": 8.8,
+    "year": 2011,
+    "duration": "60 minutes per episode"
+  },
+  {
+    "id": 18,
+    "name": "Squid Game",
+    "genre": "Thriller",
+    "rating": 8.3,
+    "year": 2021,
+    "duration": "55 minutes per episode"
+  },
+  {
+    "id": 19,
+    "name": "Dune",
+    "genre": "Sci-Fi",
+    "rating": 8.1,
+    "year": 2021,
+    "duration": "155 minutes"
+  },
+  {
+    "id": 20,
+    "name": "The Boys",
+    "genre": "Action",
+    "rating": 8.7,
+    "year": 2019,
+    "duration": "60 minutes per episode"
+  }
+]
