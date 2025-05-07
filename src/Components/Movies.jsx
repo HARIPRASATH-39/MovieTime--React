@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Movierender } from "./MovieRender";
+import { Movierender } from "./Movierender";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/Movies.css";
 
@@ -41,6 +41,9 @@ export function Movies() {
   });
   return (
     <div className="">
+      <h1>
+        Welcome to <span className="Title">Movie</span> Time....
+      </h1>
       <div className="SearchBar mb-4">
         <input
           type="text"
@@ -50,21 +53,27 @@ export function Movies() {
           onChange={searchvalue}
         ></input>
       </div>
-      <div>
-        <button className="btn btn-secondary" onClick={() => sorthelp("name")}>
+      <div className="sort-button">
+        <button
+          className="btn btn-secondary mb-3"
+          onClick={() => sorthelp("name")}
+        >
           SORT BY NAME
         </button>
-        <button className="btn btn-info" onClick={() => sorthelp("year")}>
+
+        <button className="btn btn-info mb-3" onClick={() => sorthelp("year")}>
           SORT BY YEAR
         </button>
       </div>
-      <div className="row md-3">
-        {filteredMovies.length == 0 ? (
-          <p className="nomovies">NO MOVIES AVAILABLE</p>
+      <div className="row">
+        {filteredMovies.length === 0 ? (
+          <div className="empty-list">
+            <p className="nomovies">NO MOVIES AVAILABLE</p>
+          </div>
         ) : (
           sortedMovies.map((movie) => (
             <div key={movie.id} className="col md-3 mb-3">
-              <div className="card  shadow-lg custom">
+              <div className="card shadow-lg custom">
                 <Movierender movie={movie} />
               </div>
             </div>
