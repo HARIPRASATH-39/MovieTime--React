@@ -11,9 +11,14 @@ export const watchlistSlice = createSlice({
     setWatchlist: (state, action) => {
       state.watchlist = [...state.watchlist, action.payload];
     },
+    deleteWatchlist: (state, action) => {
+      state.watchlist = state.watchlist.filter(
+        (movie, index) => index !== action.payload
+      );
+    },
   },
 });
 
-export const { setWatchlist } = watchlistSlice.actions;
+export const { setWatchlist, deleteWatchlist } = watchlistSlice.actions;
 
 export default watchlistSlice.reducer;

@@ -8,16 +8,14 @@ import store from "./Store/Store";
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
-        <Navbar></Navbar>
+    <Router>
+      <Navbar></Navbar>
 
-        <Routes>
-          <Route path="/" element={<Movies />} />
-          <Route path="/watchlist" element={<Watchlist />} />
-        </Routes>
-      </Router>
-    </Provider>
+      <Routes>
+        <Route path="/" element={<Movies />} />
+        <Route path="/watchlist" element={<Watchlist />} />
+      </Routes>
+    </Router>
   );
 }
 
